@@ -1,0 +1,9 @@
+Building Chaoscoin
+
+See doc/readme-qt.rst for instructions on building Chaoscoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Chaoscoin.
+
+See doc/build-*.txt for instructions on building chaoscoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Chaoscoin.
