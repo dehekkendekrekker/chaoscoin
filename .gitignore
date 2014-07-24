@@ -1,0 +1,34 @@
+src/*.exe
+src/chaoscoin
+src/chaoscoind
+src/test_chaoscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.chaoscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+chaoscoin-qt
+Chaoscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+chaoscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
